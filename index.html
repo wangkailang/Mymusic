@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+  </head>
+  <body>
+	<div class="homepage" id="homepage">
+		<div class="home-up">
+			<div class="name">Wystan Wang</div>
+			<div class="next" id="next">
+				<div class="glyphicon glyphicon-forward"></div>
+			</div>
+			<div class="pre" id="pre">
+				<div class="glyphicon glyphicon-backward"></div>
+			</div>
+			<div class="container">
+				<div class="singerImg active" id="singerImg">
+				</div>
+				<div class="play-stop">
+					<div class="play" id="play" style="display:block;">
+						<div class="glyphicon glyphicon-play-circle"></div>
+					</div>
+					<div class="stop" id="stop" style="display:none;">
+						<div class="glyphicon glyphicon-pause"></div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="musicName" id="musicName"></div>
+				<div class="sigerName" id="sigerName"></div>
+			</div>
+			<!-- <div class="container">
+				<div class="keywords" id="keywords"></div>
+			</div> -->
+			<div class="container">
+				<div class="control">
+					<div class="progress-bar" id="bar" style="width:200px;">
+						<div class="progress" id="progress"></div>
+						<div class="buffer" id="buffer"></div>
+					</div>
+					<div class="time" id="time"><span></span>/<span></span></div>
+				</div>
+			</div>
+		</div>
+		<div class="home-down">
+			<ul id="list">
+				<li>
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-3">
+							<img src="./images/snh48.jpg">
+					</div>
+					<div class="col-xs-6">
+						<h2>化作樱花树</h2>
+						<h3>Snh48</h3>
+					</div>
+					<div class="col-xs-3">
+						05:24
+					</div>
+					</div>
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-3">
+							<img src="./images/ljr.jpg">
+					</div>
+					<div class="col-xs-6">
+						<h2>勇气</h2>
+						<h3>梁静茹</h3>
+					</div>
+					<div class="col-xs-3">
+						03:55
+					</div>
+					</div>
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-3">
+							<img src="./images/pushu1.jpg">
+					</div>
+					<div class="col-xs-6">
+						<h2>平凡之路</h2>
+						<h3>朴树</h3>
+					</div>
+					<div class="col-xs-3">
+						05:01
+					</div>
+					</div>
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-3">
+							<img src="./images/pushu2.jpg">
+					</div>
+					<div class="col-xs-6">
+						<h2>且听风吟</h2>
+						<h3>朴树</h3>
+					</div>
+					<div class="col-xs-3">
+						03:43
+					</div>
+					</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<audio id="audio"></audio>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/js.js"></script>
+  </body>
+</html>
